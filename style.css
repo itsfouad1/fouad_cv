@@ -1,0 +1,264 @@
+*{
+    list-style-type: none;
+
+}
+body{
+    font-family: "Harmattan", serif;
+    background-color: #ffffff;
+
+}
+.ul-menu {
+    background-color: #333;
+    color:#ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.li-menu{
+    float: right;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+
+}
+.li-menu a:hover{
+    background-color: black;
+}
+.title-menu{
+    text-decoration: none;
+
+    color: #ffffff;
+    font-size: 30px; 
+    display: inline;
+    display: block;
+    padding: 17px;
+}
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.social{
+    width: 30px;
+    padding: 5px;
+}
+.left{
+    font-size: 20px;
+    width: 20%;
+    float: left;
+}
+.right{
+    width: 60%;
+    float: left;
+}
+.row{
+    padding: 5px;
+}
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-bar{
+    background-color: grey;
+    display: block;
+    height: 20px;
+   
+}
+.main-bar span{
+    background-color: teal;
+    height: 20px;
+    display: block;
+    color: white;
+}
+.javascript{
+    width: 65%;
+    animation: javascript 2s;
+}
+.java{
+    width: 70%;
+    animation: java 2s;
+}
+.python{
+    width: 50%;
+    animation: python 2s;
+}
+.html{
+    width: 80%;
+    animation: html 2s;
+}
+.css{
+    width: 40%;
+    animation: css 2s;
+}
+.spring{
+    width: 60%;
+    animation: spring 2s;
+}
+.node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+        background-color: aquamarine;
+    }
+    100%{
+        width: 65%;
+        background-color: teal;
+    }
+}
+@keyframes java {
+    0%{
+        width: 0%;
+        background-color: aquamarine;
+
+    }
+    100%{
+        width: 70%;
+        background-color: teal;
+
+    }
+}
+@keyframes python {
+    0%{
+        width: 0%;
+        background-color: aquamarine;
+
+    }
+    100%{
+        width: 50%;
+        background-color: teal;
+
+    }
+}
+@keyframes html {
+    0%{
+        width: 0%;
+        background-color: aquamarine;
+
+    }
+    100%{
+        width: 80%;
+        background-color: teal;
+
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+        background-color: aquamarine;
+
+    }
+    100%{
+        width: 40%;
+        background-color: teal;
+
+    }}
+    @keyframes spring {
+        0%{
+            width: 0%;
+            background-color: aquamarine;
+    
+        }
+        100%{
+            width: 60%;
+            background-color: teal;
+    
+        }
+
+}
+@keyframes node {
+    0%{
+        width: 0%;
+        background-color: aquamarine;
+
+    }
+    100%{
+        width: 70%;
+        background-color: teal;
+
+    }
+}
+.footer{
+    background-color: #333;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.right-footer {
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+    line-height: 5px ;
+  }
+
+.bio{
+    font-size: 20px;
+}
+@media screen and (max-width:600px) {
+    .column{
+        width: 100%;
+    }
+}
+.li-number{
+    color: #ffffff;
+    float: right;
+    padding-left: 2%;
+
+
+}
+.l-number{
+    color: #ffffff;
+    border-radius: 20%;
+}
+.li-number a:hover{
+    background-color: teal; 
+}
+.li-footer{
+    float: right;
+
+}
+.li-footer2{
+    float: left;
+
+}
+
+
+/* .harmattan-regular {
+    font-family: "Harmattan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .harmattan-medium {
+    font-family: "Harmattan", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .harmattan-semibold {
+    font-family: "Harmattan", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .harmattan-bold {
+    font-family: "Harmattan", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+   */
+
